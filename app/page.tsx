@@ -15,7 +15,7 @@ export default function Page() {
           priority
         />
       </a>
-      <h1 className="mb-8 text-2xl font-medium">Portfolio template!</h1>
+      <h1 className="mb-8 text-2xl font-medium">a home made of words. </h1>
       <div className="prose prose-neutral dark:prose-invert">
         <p>
   i was anxious.<br />
