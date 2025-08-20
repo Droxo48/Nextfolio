@@ -1,71 +1,38 @@
-import Image from "next/image";
-import { socialLinks } from "./lib/config";
+import React from "react";
 
 export default function HomePage() {
   return (
     <section className="max-w-3xl mx-auto px-4 py-12">
-      <h1 className="text-4xl font-bold mb-6">
-        A home made of words.
-      </h1>
+      <h1 className="text-4xl font-bold mb-6">Welcome</h1>
 
       <p className="mb-4">
-        i am a khatarnakh lekakh.<br />
-        aaj friday hai
+        This space isn’t perfect, polished, or full of expert advice.
       </p>
 
       <p className="mb-4">
-        technologia.<br />
-        kis colour ki chaddi pahne ho
+        It’s just me—writing to find clarity, to understand myself better, and
+        to slowly make peace with things I used to run from: anxiety, fear,
+        self-doubt, and the weight of staying quiet for too long.
       </p>
 
       <p className="mb-4">
-        this blog is that.<br />
-        a place to let it out.<br />
-        haaye garmi
+        Here, I write about what I’m learning as I heal. Not as someone who has
+        it all figured out, but as someone finally learning to open up, to
+        speak, and to feel without shame.
       </p>
 
       <p className="mb-4">
-        stories i’ve seen.<br />
-        mms<br />
-        the slow climb out.
-      </p>
-
-      <p className="mb-4">
-        oo.<br />
-        8=====D.
-      </p>
-
-      <h2 className="text-2xl font-semibold mt-10 mb-4">
-        what you’ll find here
-      </h2>
-
-      <ul className="list-disc list-inside mb-6">
-        <li>mms.</li>
-        <li>desi.</li>
-        <li>viral.</li>
-      </ul>
-
-      <h2 className="text-2xl font-semibold mt-10 mb-4">
-        why this exists
-      </h2>
-
-      <p className="mb-4">
-        because i needed it.<br />
-        because maybe you do too.<br />
-        zaroori hai.<br />
-        
+        Some days I write to make sense of my past. Other days I write because
+        it’s the only way I know how to move forward.
       </p>
 
       <p className="mb-6">
-        this is for all.<br />
-        you’re not alone.<br />
-        okay.<br />
-        this is amazing.
+        If any of this resonates with you, I’m glad you’re here.
       </p>
 
-      <p className="italic">
-        welcome in.
-      </p>
+      <hr className="my-6 border-t border-gray-300" />
+
+      <p className="italic">Thank you for reading.</p>
     </section>
   );
 }
